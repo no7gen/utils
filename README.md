@@ -8,4 +8,9 @@ utils for any tasks
 ### postgres13
 Можно запустить в докере командой:  
 `docker run --name nogen-pg-test-13.3 -p 5432:5432 -e POSTGRES_USER=testuser -e POSTGRES_PASSWORD=testpass -e POSTGRES_DB=pgtest -d postgres:13.3`  
-Добавил docker-compose with persist. db/postgres/template
+Добавил docker-compose with persist. db/postgres/template  
+
+## java
+Собраны свои коды на java
+### reflection
+Код для слияния двух экземпляров одного класса в один (Копирование полей одного в другое).
